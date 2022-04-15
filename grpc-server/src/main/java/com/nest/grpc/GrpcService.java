@@ -1,5 +1,7 @@
 package com.nest.grpc;
 
+import com.nest.proto.generated.hello.HelloServiceGrpc;
+import com.nest.proto.generated.hello.HelloWorld;
 import io.grpc.stub.StreamObserver;
 import org.lognet.springboot.grpc.GRpcService;
 

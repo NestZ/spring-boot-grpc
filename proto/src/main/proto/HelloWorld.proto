@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package com.nest.grpc;
+package hello;
+
+option java_package = "com.nest.proto.generated.hello";
 
 service HelloService {
   rpc hello(Hello) returns (Greeting);
